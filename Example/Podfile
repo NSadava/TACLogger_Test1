@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TACLogger_Test1_Example' do
+  pod 'TACLogger_Test1', :path => '../'
+
+  target 'TACLogger_Test1_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
