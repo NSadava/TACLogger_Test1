@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28EDC50009F7BB793FB6A9CDBEE1D0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		32B5367C99A595EBD6D82A5FDA08F9FE /* Pods-TACLogger_Test1_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F995DC4D5FE556A7A985CD998FE8575 /* Pods-TACLogger_Test1_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44FC647D7584D623C1451F4538FFEB92 /* TACLogger_Test1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEEBEECE4B7830BC2D4CEF5976E2B03 /* TACLogger_Test1-dummy.m */; };
+		546C29AFA151F8E523C243FB82BCE1E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5834706AED36DFAC5C12E88C27A1046E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5D373E8120512DE800424ED8 /* TACLogger_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D373E8020512DE800424ED8 /* TACLogger_test.swift */; };
+		86188E0D01F1EEBB095B2A1C9F8B519B /* TACLogger_Test1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA313052844F67D4B802F347BCDCF52 /* TACLogger_Test1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930F6D17CD0315A9B6E04EF826643E35 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D943A58B18BB310CB332A008979607 /* ReplaceMe.swift */; };
+		D722725ACC8F6D1125E1B17246CF240E /* Pods-TACLogger_Test1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58F53CE694B6FB983B8F2CE53F2332 /* Pods-TACLogger_Test1_Example-dummy.m */; };
+		E1D298234E602ADA5D521D6D092DED93 /* Pods-TACLogger_Test1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 350CD8CB30DEB0B565A78C9A876DA39A /* Pods-TACLogger_Test1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2DFF2FC601E5BF663BC26692D635769 /* Pods-TACLogger_Test1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EFE4E487493BEB4EA6F6E5D5E0F2A0 /* Pods-TACLogger_Test1_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8DDFE838127E56BC3558607A9A7B243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0B9F72F12946A07BFE7EB0E29F56D1;
+			remoteInfo = TACLogger_Test1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0102DA2E80BFA480BA79956139CF239A /* Pods-TACLogger_Test1_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TACLogger_Test1_Tests-resources.sh"; sourceTree = "<group>"; };
+		0719131024A992465A9A20DC2254890F /* TACLogger_Test1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TACLogger_Test1-prefix.pch"; sourceTree = "<group>"; };
+		09506501FA2C02AD1D22A734A9B21D40 /* Pods-TACLogger_Test1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TACLogger_Test1_Example.modulemap"; sourceTree = "<group>"; };
+		09844DC8AFCD1177A963AC6C2D1EA625 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABAEAB963DE25C689630930A1B3CDF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C6E90AFA423EFA5627EC1CA3165ED6 /* Pods-TACLogger_Test1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACLogger_Test1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		139D93536ADEEA1E7A2338721C8374F9 /* TACLogger_Test1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TACLogger_Test1.modulemap; sourceTree = "<group>"; };
+		28447E6650AA61FE2650C625D2166EAF /* Pods_TACLogger_Test1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TACLogger_Test1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A58F53CE694B6FB983B8F2CE53F2332 /* Pods-TACLogger_Test1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TACLogger_Test1_Example-dummy.m"; sourceTree = "<group>"; };
+		2E85CC9CFA4EF978F21683A620BFFE9B /* Pods-TACLogger_Test1_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TACLogger_Test1_Example-resources.sh"; sourceTree = "<group>"; };
+		350CD8CB30DEB0B565A78C9A876DA39A /* Pods-TACLogger_Test1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TACLogger_Test1_Example-umbrella.h"; sourceTree = "<group>"; };
+		378314991CB3241743D53901D28ECF03 /* Pods-TACLogger_Test1_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TACLogger_Test1_Tests.modulemap"; sourceTree = "<group>"; };
+		4B5F40372A0B2128033728FA56E98E10 /* Pods-TACLogger_Test1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TACLogger_Test1_Example-frameworks.sh"; sourceTree = "<group>"; };
+		50EFE4E487493BEB4EA6F6E5D5E0F2A0 /* Pods-TACLogger_Test1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TACLogger_Test1_Tests-dummy.m"; sourceTree = "<group>"; };
+		5D1E3327A20F2A33F357A48AA605B972 /* Pods-TACLogger_Test1_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TACLogger_Test1_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5D373E8020512DE800424ED8 /* TACLogger_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TACLogger_test.swift; path = TACLogger_Test1/Classes/TACLogger_test.swift; sourceTree = "<group>"; };
+		616F6392FA43042AEC8346BF50318CE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6735B0371A7009449C2B20710380BB6F /* Pods-TACLogger_Test1_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TACLogger_Test1_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A469A9BC24CB3FC69D5814EB9FD20CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7B4393503AF83741CFA43B8A7211D6C7 /* Pods_TACLogger_Test1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TACLogger_Test1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDCE1AE892A14E4ADC099321804E175 /* Pods-TACLogger_Test1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACLogger_Test1_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		88AB85B838E0024387B4D34F59C18037 /* TACLogger_Test1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TACLogger_Test1.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A71CC1FD6914B18F7741DC9C9C6E651 /* TACLogger_Test1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TACLogger_Test1.xcconfig; sourceTree = "<group>"; };
+		8F995DC4D5FE556A7A985CD998FE8575 /* Pods-TACLogger_Test1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TACLogger_Test1_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A50A85154BC20169FF71A040FE1532 /* Pods-TACLogger_Test1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TACLogger_Test1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EA313052844F67D4B802F347BCDCF52 /* TACLogger_Test1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TACLogger_Test1-umbrella.h"; sourceTree = "<group>"; };
+		A2F14102887C33D813C7276D14342E0A /* Pods-TACLogger_Test1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACLogger_Test1_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B4D943A58B18BB310CB332A008979607 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TACLogger_Test1/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		CBD99635C4B7C672803B4D1000A3EBBB /* Pods-TACLogger_Test1_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TACLogger_Test1_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D42344E2D10F7F0A64C029EAF3E1AFBF /* TACLogger_Test1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TACLogger_Test1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19B86BB466D8A4E96171B92EFEA090D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F31A8EFE74F6444457F8D39EB3DC2CE4 /* Pods-TACLogger_Test1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACLogger_Test1_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A3E254AED7C15D5E7F41B57BEE072E /* Pods-TACLogger_Test1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TACLogger_Test1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBEEBEECE4B7830BC2D4CEF5976E2B03 /* TACLogger_Test1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TACLogger_Test1-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2324240A4C705EF2AE50BA9D802C6C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546C29AFA151F8E523C243FB82BCE1E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37205649699912551D8BB07E3F5B11D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834706AED36DFAC5C12E88C27A1046E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE5C82D3A757FF3424D51E470B4EF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EDC50009F7BB793FB6A9CDBEE1D0CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14089340764740FA6D59CEBFC0D18322 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6A469A9BC24CB3FC69D5814EB9FD20CF /* LICENSE */,
+				F19B86BB466D8A4E96171B92EFEA090D /* README.md */,
+				88AB85B838E0024387B4D34F59C18037 /* TACLogger_Test1.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		16648D67BAE35B2D8E87E8A18089BFC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ABAEAB963DE25C689630930A1B3CDF3 /* Info.plist */,
+				139D93536ADEEA1E7A2338721C8374F9 /* TACLogger_Test1.modulemap */,
+				8A71CC1FD6914B18F7741DC9C9C6E651 /* TACLogger_Test1.xcconfig */,
+				FBEEBEECE4B7830BC2D4CEF5976E2B03 /* TACLogger_Test1-dummy.m */,
+				0719131024A992465A9A20DC2254890F /* TACLogger_Test1-prefix.pch */,
+				9EA313052844F67D4B802F347BCDCF52 /* TACLogger_Test1-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TACLogger_Test1";
+			sourceTree = "<group>";
+		};
+		282CB0B88C8799EBE6EE59F9CE3C5222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28447E6650AA61FE2650C625D2166EAF /* Pods_TACLogger_Test1_Example.framework */,
+				7B4393503AF83741CFA43B8A7211D6C7 /* Pods_TACLogger_Test1_Tests.framework */,
+				D42344E2D10F7F0A64C029EAF3E1AFBF /* TACLogger_Test1.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C8B567E8BAF75403E535E72F938AB79 /* Pods-TACLogger_Test1_Example */ = {
+			isa = PBXGroup;
+			children = (
+				09844DC8AFCD1177A963AC6C2D1EA625 /* Info.plist */,
+				09506501FA2C02AD1D22A734A9B21D40 /* Pods-TACLogger_Test1_Example.modulemap */,
+				CBD99635C4B7C672803B4D1000A3EBBB /* Pods-TACLogger_Test1_Example-acknowledgements.markdown */,
+				F4A3E254AED7C15D5E7F41B57BEE072E /* Pods-TACLogger_Test1_Example-acknowledgements.plist */,
+				2A58F53CE694B6FB983B8F2CE53F2332 /* Pods-TACLogger_Test1_Example-dummy.m */,
+				4B5F40372A0B2128033728FA56E98E10 /* Pods-TACLogger_Test1_Example-frameworks.sh */,
+				2E85CC9CFA4EF978F21683A620BFFE9B /* Pods-TACLogger_Test1_Example-resources.sh */,
+				350CD8CB30DEB0B565A78C9A876DA39A /* Pods-TACLogger_Test1_Example-umbrella.h */,
+				F31A8EFE74F6444457F8D39EB3DC2CE4 /* Pods-TACLogger_Test1_Example.debug.xcconfig */,
+				A2F14102887C33D813C7276D14342E0A /* Pods-TACLogger_Test1_Example.release.xcconfig */,
+			);
+			name = "Pods-TACLogger_Test1_Example";
+			path = "Target Support Files/Pods-TACLogger_Test1_Example";
+			sourceTree = "<group>";
+		};
+		521FA7EF376A600CB3E14411B8CBCE8C /* TACLogger_Test1 */ = {
+			isa = PBXGroup;
+			children = (
+				B4D943A58B18BB310CB332A008979607 /* ReplaceMe.swift */,
+				5D373E8020512DE800424ED8 /* TACLogger_test.swift */,
+				14089340764740FA6D59CEBFC0D18322 /* Pod */,
+				16648D67BAE35B2D8E87E8A18089BFC9 /* Support Files */,
+			);
+			name = TACLogger_Test1;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		66DDF64B05CE2586D875E30CAFD3829E /* Pods-TACLogger_Test1_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				616F6392FA43042AEC8346BF50318CE0 /* Info.plist */,
+				378314991CB3241743D53901D28ECF03 /* Pods-TACLogger_Test1_Tests.modulemap */,
+				93A50A85154BC20169FF71A040FE1532 /* Pods-TACLogger_Test1_Tests-acknowledgements.markdown */,
+				6735B0371A7009449C2B20710380BB6F /* Pods-TACLogger_Test1_Tests-acknowledgements.plist */,
+				50EFE4E487493BEB4EA6F6E5D5E0F2A0 /* Pods-TACLogger_Test1_Tests-dummy.m */,
+				5D1E3327A20F2A33F357A48AA605B972 /* Pods-TACLogger_Test1_Tests-frameworks.sh */,
+				0102DA2E80BFA480BA79956139CF239A /* Pods-TACLogger_Test1_Tests-resources.sh */,
+				8F995DC4D5FE556A7A985CD998FE8575 /* Pods-TACLogger_Test1_Tests-umbrella.h */,
+				11C6E90AFA423EFA5627EC1CA3165ED6 /* Pods-TACLogger_Test1_Tests.debug.xcconfig */,
+				7CDCE1AE892A14E4ADC099321804E175 /* Pods-TACLogger_Test1_Tests.release.xcconfig */,
+			);
+			name = "Pods-TACLogger_Test1_Tests";
+			path = "Target Support Files/Pods-TACLogger_Test1_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CF91B530F5496C8B7A283F651A266420 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				282CB0B88C8799EBE6EE59F9CE3C5222 /* Products */,
+				E90FAFB0F771FB10514D16E87F20E143 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF91B530F5496C8B7A283F651A266420 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				521FA7EF376A600CB3E14411B8CBCE8C /* TACLogger_Test1 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E90FAFB0F771FB10514D16E87F20E143 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B567E8BAF75403E535E72F938AB79 /* Pods-TACLogger_Test1_Example */,
+				66DDF64B05CE2586D875E30CAFD3829E /* Pods-TACLogger_Test1_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23A1828A6BA431FC1E558A3CFCA99500 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B5367C99A595EBD6D82A5FDA08F9FE /* Pods-TACLogger_Test1_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDB4D85D2E80D5C01B7DC35786AB728 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86188E0D01F1EEBB095B2A1C9F8B519B /* TACLogger_Test1-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08D693633F34F1BEDD9AE7BD7D5C3FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D298234E602ADA5D521D6D092DED93 /* Pods-TACLogger_Test1_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70777B50594E02E96EBF3B3247C232A5 /* Pods-TACLogger_Test1_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B248F7F3B4481CF3875557C6BEF002 /* Build configuration list for PBXNativeTarget "Pods-TACLogger_Test1_Tests" */;
+			buildPhases = (
+				1CCC20A515CF0BE4CD0E8CC0B8A1118B /* Sources */,
+				2324240A4C705EF2AE50BA9D802C6C15 /* Frameworks */,
+				23A1828A6BA431FC1E558A3CFCA99500 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TACLogger_Test1_Tests";
+			productName = "Pods-TACLogger_Test1_Tests";
+			productReference = 7B4393503AF83741CFA43B8A7211D6C7 /* Pods_TACLogger_Test1_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3141201DDEA511C8CA9038A11ED6D35 /* Pods-TACLogger_Test1_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE3B6EAAFBFB77D26746E9F8ED44820 /* Build configuration list for PBXNativeTarget "Pods-TACLogger_Test1_Example" */;
+			buildPhases = (
+				7494CF6B122A4FC18C23C27187E321F3 /* Sources */,
+				BEE5C82D3A757FF3424D51E470B4EF68 /* Frameworks */,
+				F08D693633F34F1BEDD9AE7BD7D5C3FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5A169D3997C926E1AFFEB9349E3026 /* PBXTargetDependency */,
+			);
+			name = "Pods-TACLogger_Test1_Example";
+			productName = "Pods-TACLogger_Test1_Example";
+			productReference = 28447E6650AA61FE2650C625D2166EAF /* Pods_TACLogger_Test1_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD0B9F72F12946A07BFE7EB0E29F56D1 /* TACLogger_Test1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525E86293ECAD7295391A1AC15DAA1CA /* Build configuration list for PBXNativeTarget "TACLogger_Test1" */;
+			buildPhases = (
+				D5C3E720CFFCA53871AB8E721A15ADB6 /* Sources */,
+				37205649699912551D8BB07E3F5B11D7 /* Frameworks */,
+				7DDB4D85D2E80D5C01B7DC35786AB728 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TACLogger_Test1;
+			productName = TACLogger_Test1;
+			productReference = D42344E2D10F7F0A64C029EAF3E1AFBF /* TACLogger_Test1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 282CB0B88C8799EBE6EE59F9CE3C5222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3141201DDEA511C8CA9038A11ED6D35 /* Pods-TACLogger_Test1_Example */,
+				70777B50594E02E96EBF3B3247C232A5 /* Pods-TACLogger_Test1_Tests */,
+				BD0B9F72F12946A07BFE7EB0E29F56D1 /* TACLogger_Test1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CCC20A515CF0BE4CD0E8CC0B8A1118B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFF2FC601E5BF663BC26692D635769 /* Pods-TACLogger_Test1_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7494CF6B122A4FC18C23C27187E321F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D722725ACC8F6D1125E1B17246CF240E /* Pods-TACLogger_Test1_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3E720CFFCA53871AB8E721A15ADB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D373E8120512DE800424ED8 /* TACLogger_test.swift in Sources */,
+				930F6D17CD0315A9B6E04EF826643E35 /* ReplaceMe.swift in Sources */,
+				44FC647D7584D623C1451F4538FFEB92 /* TACLogger_Test1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5A169D3997C926E1AFFEB9349E3026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TACLogger_Test1;
+			target = BD0B9F72F12946A07BFE7EB0E29F56D1 /* TACLogger_Test1 */;
+			targetProxy = C8DDFE838127E56BC3558607A9A7B243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		281DDF4C7591C39135B3BBA02B7F5591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F14102887C33D813C7276D14342E0A /* Pods-TACLogger_Test1_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TACLogger_Test1_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TACLogger_Test1_Example/Pods-TACLogger_Test1_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TACLogger_Test1_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B23E512B020761488F0830BD08A3548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDCE1AE892A14E4ADC099321804E175 /* Pods-TACLogger_Test1_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TACLogger_Test1_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TACLogger_Test1_Tests/Pods-TACLogger_Test1_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TACLogger_Test1_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80CB82F3956FB88B400D046CA18B449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C6E90AFA423EFA5627EC1CA3165ED6 /* Pods-TACLogger_Test1_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TACLogger_Test1_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TACLogger_Test1_Tests/Pods-TACLogger_Test1_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TACLogger_Test1_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81B4E3CCB7556F065E494BF36F2C0F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A71CC1FD6914B18F7741DC9C9C6E651 /* TACLogger_Test1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TACLogger_Test1/TACLogger_Test1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TACLogger_Test1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TACLogger_Test1/TACLogger_Test1.modulemap";
+				PRODUCT_NAME = TACLogger_Test1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D41B153C291C8438BC9EECBB2C1D3BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A71CC1FD6914B18F7741DC9C9C6E651 /* TACLogger_Test1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TACLogger_Test1/TACLogger_Test1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TACLogger_Test1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TACLogger_Test1/TACLogger_Test1.modulemap";
+				PRODUCT_NAME = TACLogger_Test1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAE6EB9D7E0F4D2FE0893437B015964A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31A8EFE74F6444457F8D39EB3DC2CE4 /* Pods-TACLogger_Test1_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TACLogger_Test1_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TACLogger_Test1_Example/Pods-TACLogger_Test1_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TACLogger_Test1_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE3B6EAAFBFB77D26746E9F8ED44820 /* Build configuration list for PBXNativeTarget "Pods-TACLogger_Test1_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE6EB9D7E0F4D2FE0893437B015964A /* Debug */,
+				281DDF4C7591C39135B3BBA02B7F5591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525E86293ECAD7295391A1AC15DAA1CA /* Build configuration list for PBXNativeTarget "TACLogger_Test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B4E3CCB7556F065E494BF36F2C0F59 /* Debug */,
+				D41B153C291C8438BC9EECBB2C1D3BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B248F7F3B4481CF3875557C6BEF002 /* Build configuration list for PBXNativeTarget "Pods-TACLogger_Test1_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CB82F3956FB88B400D046CA18B449E /* Debug */,
+				7B23E512B020761488F0830BD08A3548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TACLogger_Test1 (0.1.0)
+
+DEPENDENCIES:
+  - TACLogger_Test1 (from `../`)
+
+EXTERNAL SOURCES:
+  TACLogger_Test1:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TACLogger_Test1: b02d84693c610464ab9516d681f06c8be927e566
+
+PODFILE CHECKSUM: ece764083e4badd61203e4e28a1a7dd3f0d4a94d
+
+COCOAPODS: 1.4.0

@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* TACLogger_Test1_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TACLogger_Test1_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		92E91B1FDEFC6C128CAD6B80 /* TACLogger_Test1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TACLogger_Test1.podspec; path = ../TACLogger_Test1.podspec; sourceTree = "<group>"; };
-		9FC0CC2B0BE8E3FF09988918 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		92E91B1FDEFC6C128CAD6B80 /* TACLogger_Test1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TACLogger_Test1.podspec; path = ../TACLogger_Test1.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC0CC2B0BE8E3FF09988918 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BAABC6F080882614FF84AA3B /* Pods_TACLogger_Test1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TACLogger_Test1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7D9675EB49F28221F581E35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C7D9675EB49F28221F581E35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F375F3567B93A3BDF4148DF4 /* Pods-TACLogger_Test1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TACLogger_Test1_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TACLogger_Test1_Tests/Pods-TACLogger_Test1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA0F848DC83C0A03EAC747F9 /* Pods-TACLogger_Test1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TACLogger_Test1_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TACLogger_Test1_Example/Pods-TACLogger_Test1_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
